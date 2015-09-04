@@ -1,9 +1,14 @@
 # KML-File-Generator---VBA
 
+**Background**
 This repository contains a collection of VBA scripts for generating a Google earth compatible communication web. 
 This web shows the network communications between repeaters and collectors throughout an AMI network and can be used to 
-visualize network efficiency. 
+visualize network efficiency. An example of the resultant communications web can be seen below
 
+![Example Communications Web](/images/logo.png)
+
+
+**How To Run**
 The process for generating this web is as follows:
 
   1) Run the SQL Scripts (Not Included in this Repository) which collect information on network performance.
@@ -26,3 +31,4 @@ The process for generating this web is as follows:
   5) Browse and select the files containing the information gathered from the three SQL Scripts
   
   6) Click the 'Run' Button
+
