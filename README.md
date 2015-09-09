@@ -32,10 +32,9 @@ The process for generating this web is as follows:
       PleaseWait - A Userform which displays a "Please Wait" while the KML file is being written
       
   3) Run the 'CollectorRepeaterAssociations' script, this launches the User Interface
+  ![GUI for User Input](https://cloud.githubusercontent.com/assets/11066939/9762519/083258da-56d2-11e5-8d1c-4ca2da241f5b.JPG)
   
   4) Select the 'Use New Data for Mapping' check box
-  
-  ![GUI for User Input](https://cloud.githubusercontent.com/assets/11066939/9762519/083258da-56d2-11e5-8d1c-4ca2da241f5b.JPG)
   
   5) Browse and select the files containing the information gathered from the three SQL Scripts
   
