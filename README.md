@@ -46,4 +46,8 @@ The process for generating this web is as follows:
 
 A KML file is written in the Keyhole Markup Language. It is comprised of a list of predefined tags wrapped around text (Ex. < Desc>*Some Text*< /Desc>). The KML file generator uses these standard tags to write the bulk of the KML file and then simply injects the data pulled using the SQL scripts inside the corresponding tag. Because of this, modifications to this script can be easily made to add or alter functionality as the user sees fit.
 
+Sample KML code can be seen below
+
+![Sample KML Code](https://cloud.githubusercontent.com/assets/11066939/9763257/99c761ec-56d6-11e5-8d1c-8868298ec47b.JPG)
+
 
