@@ -22,13 +22,12 @@ The process for generating this web is as follows:
       
       One which gathers daily summaries of network communications between collectors and repeaters
       
-  2) Import the VBA modules and userforms into an excel file. The VBA modules include:
+  2) Import the VBA modules and userforms into an excel file. To do this you need to launch the VBA editor(alt+F11).
+     The VBA modules to import are:
   
       CollectorRepeaterAssociations - The GUI which acts as an interface and manages the import of data into a spreadsheet
       
       ExportKML - The module responsible for writing the KML file from the data gathered by the SQL Scripts
-      
-      PleaseWait - A Userform which displays a "Please Wait" while the KML file is being written
       
   3) Run the 'CollectorRepeaterAssociations' script, this launches the user interface seen below...
   
