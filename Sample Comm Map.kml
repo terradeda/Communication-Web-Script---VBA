@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+  <name>My KML Import</name>
+<LookAt>
+         <longitude>-75.682778</longitude>
+         <latitude>45.364444</latitude>
+         <range>50000</range>
+</LookAt>
+<Style id ="hurdLineStyle">
+  <LineStyle>
+    <color>64781E00</color>
+    <width>5</width>
+  </LineStyle>
+</Style>
+<Style id ="managedLineStyle">
+  <LineStyle>
+    <color>FF14F00A</color>
+    <width>5</width>
+  </LineStyle>
+</Style>
+<Style id ="RepStyle">
+ <IconStyle>
+    <scale>0.5</scale>
+    <Icon> <href>Rep.png</href> </Icon>
+  </IconStyle>
+  <LabelStyle>
+    <scale>0</scale>
+  </LabelStyle>
+</Style>
+<Style id ="ColStyle">
+ <IconStyle>
+    <scale>2</scale>
+    <Icon> <href>Col.png</href> </Icon>
+  </IconStyle>
+</Style>
+<Folder>
+    <name>Collectors</name>
+  <Placemark>
+    <name>Col ID: 1</name>
+    <styleUrl>#ColStyle</styleUrl>
+    <Point>
+     <coordinates>-79.420441, 43.690169,0</coordinates>
+    </Point>
+    <description><![CDATA[<b>Repeater Stats</b>
+<br/>     Daily Actuals: 50
+<br/>     Daily Managed: 13
+<br/><b>Endpoint Stats</b>
+<br/>     Daily Actuals: 133633
+<br/>    Daily Managed: 7913
+<br/>   Average Managed: 7913]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col ID: 2</name>
+    <styleUrl>#ColStyle</styleUrl>
+    <Point>
+     <coordinates>-79.471253, 43.888441,0</coordinates>
+    </Point>
+    <description><![CDATA[<b>Repeater Stats</b>
+<br/>     Daily Actuals: 13
+<br/>     Daily Managed: 3
+<br/><b>Endpoint Stats</b>
+<br/>     Daily Actuals: 47402
+<br/>    Daily Managed: 1428
+<br/>   Average Managed: 1428]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col ID: 3</name>
+    <styleUrl>#ColStyle</styleUrl>
+    <Point>
+     <coordinates>-79.721192, 43.585812,0</coordinates>
+    </Point>
+    <description><![CDATA[<b>Repeater Stats</b>
+<br/>     Daily Actuals: 7
+<br/>     Daily Managed: 1
+<br/><b>Endpoint Stats</b>
+<br/>     Daily Actuals: 27601
+<br/>    Daily Managed: 3163
+<br/>   Average Managed: 3163]]></description>
+  </Placemark>
+</Folder>
+<Folder>
+    <name>Repeaters</name>
+  <Placemark>
+    <name>Rep ID: 1</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.56601, 43.73583,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 3390
+Daily Managed: 878
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 2</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.530304, 43.652423,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 5488
+Daily Managed: 2730
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 3</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.435547, 43.78443,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 1731
+Daily Managed: 744
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 4</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.300964, 43.810202,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 2796
+Daily Managed: 463
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 5</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.284485, 43.729876,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 4967
+Daily Managed: 2268
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 6</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.682739, 43.526099,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 4372
+Daily Managed: 1664
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 7</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.608582, 43.601726,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 14381
+Daily Managed: 2038
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 8</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.740418, 43.657391,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 130
+Daily Managed: 97
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 9</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.663513, 43.640498,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 102
+Daily Managed: 46
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 10</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.546784, 43.833982,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 4474
+Daily Managed: 1710
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 11</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.410828, 43.865674,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 232
+Daily Managed: 143
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Rep ID: 12</name>
+    <styleUrl>#RepStyle</styleUrl>
+    <Point>
+     <coordinates>-79.277619, 43.884482,0</coordinates>
+    </Point>
+    <description><![CDATA[Active: True
+Daily Actual: 456
+Daily Managed: 256
+Num TS Errors Btwn EPs: 0
+Reference Date-Time: 2015-Aug-19]]></description>
+  </Placemark>
+</Folder>
+<Folder>
+    <name>Collector/Repeater Associations</name>
+<Folder>
+    <name>1</name>
+  <Placemark>
+    <name>Col: 1 to Rep: 1</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.566010,43.735830,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -89.4
+Avg. RSSI: -94.6
+Channel Bitmap: 10000000000100001010111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 2</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.530304,43.652423,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -81.9
+Avg. RSSI: -87.1
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 3</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.435547,43.784430,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -79.2
+Avg. RSSI: -84.4
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 4</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.300964,43.810202,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -79.8
+Avg. RSSI: -85
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 5</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.284485,43.729876,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -72.5
+Avg. RSSI: -77.7
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 7</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.608582,43.601726,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 2
+Max RSSI: -88.5
+Avg. RSSI: -93.7
+Channel Bitmap: 111111111111111111111111
+Num Messages: 96
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 9</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.663513,43.640498,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 1
+Max RSSI: -90.6
+Avg. RSSI: -95.8
+Channel Bitmap: 111111111111111111111111
+Num Messages: 88
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 10</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.546784,43.833982,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 2
+Max RSSI: -65.1
+Avg. RSSI: -70.3
+Channel Bitmap: 111111111111111111111111
+Num Messages: 125
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 1 to Rep: 11</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.420441,43.690169,100 -79.410828,43.865674,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 2
+Max RSSI: -105
+Avg. RSSI: -110.2
+Channel Bitmap: 111111111111110111111111
+Num Messages: 96
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+</Folder>
+<Folder>
+    <name>3</name>
+  <Placemark>
+    <name>Col: 3 to Rep: 6</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.721192,43.585812,100 -79.682739,43.526099,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -98.9
+Avg. RSSI: -104.1
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 3 to Rep: 7</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.721192,43.585812,100 -79.608582,43.601726,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -85.5
+Avg. RSSI: -90.7
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 3 to Rep: 8</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.721192,43.585812,100 -79.740418,43.657391,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -95.3
+Avg. RSSI: -100.5
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 3 to Rep: 9</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.721192,43.585812,100 -79.663513,43.640498,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -92.1
+Avg. RSSI: -97.3
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 3 to Rep: 2</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.721192,43.585812,100 -79.530304,43.652423,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 2
+Max RSSI: -110.8
+Avg. RSSI: -114.2
+Channel Bitmap: 111111111111111111111111
+Num Messages: 222
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 3 to Rep: 1</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.721192,43.585812,100 -79.566010,43.735830,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 1
+Max RSSI: -110.2
+Avg. RSSI: -113.6
+Channel Bitmap: 111111111111111111111111
+Num Messages: 186
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+</Folder>
+<Folder>
+    <name>2</name>
+  <Placemark>
+    <name>Col: 2 to Rep: 10</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.471253,43.888441,100 -79.546784,43.833982,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -87
+Avg. RSSI: -92.2
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 2 to Rep: 11</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.471253,43.888441,100 -79.410828,43.865674,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -86.1
+Avg. RSSI: -91.3
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 2 to Rep: 12</name>
+    <styleUrl>#managedLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.471253,43.888441,100 -79.277619,43.884482,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 0
+Max RSSI: -94.4
+Avg. RSSI: -97.5
+Channel Bitmap: 111111111111111111111111
+Num Messages: 255
+On Report List: False
+On Management List: True]]></description>
+  </Placemark>
+  <Placemark>
+    <name>Col: 2 to Rep: 3</name>
+    <styleUrl>#hurdLineStyle</styleUrl>
+    <LineString> 
+      <coordinates> -79.471253,43.888441,100 -79.435547,43.784430,100 </coordinates> 
+    </LineString>
+    <description><![CDATA[Rank: 1
+Max RSSI: -91.2
+Avg. RSSI: -93.8
+Channel Bitmap: 111111111111111111111111
+Num Messages: 198
+On Report List: False
+On Management List: False]]></description>
+  </Placemark>
+</Folder>
+</Folder>
+</Document>
+</kml>
